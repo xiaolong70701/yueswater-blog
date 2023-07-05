@@ -1,6 +1,24 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/archive.html",
+    "items": [
+      "/posts/2023-07-05-income-and-substitution-effects/index.html",
+      "/posts/2023-07-04-tikz-1/index.html",
+      "/posts/2023-06-30-yes-no/index.html",
+      "/posts/2023-06-28-random-variables/index.html",
+      "/posts/2023-06-29-intro/index.html",
+      "/posts/2023-07-04-consumer-choice/index.html",
+      "/posts/2023-05-26-bm/index.html",
+      "/posts/2023-05-26-r-and-tex/index.html",
+      "/posts/2023-05-26-structure/index.html",
+      "/posts/2023-05-26-table-and-figure/index.html",
+      "/posts/2023-05-24-latex-installation/index.html",
+      "/posts/2023-05-25-math/index.html",
+      "/posts/2023-05-14-first-R/index.html"
+    ]
+  },
+  {
+    "listing": "/notes.html",
     "items": [
       "/posts/2023-07-05-income-and-substitution-effects/index.html",
       "/posts/2023-07-04-tikz-1/index.html",
@@ -32,66 +50,7 @@
       "/posts/2023-05-26-table-and-figure/index.html",
       "/posts/2023-05-24-latex-installation/index.html",
       "/posts/2023-05-25-math/index.html",
-      "/posts/2023-05-14-first-R/index.html",
-      "/posts/blog/2022-09-11-museum/index.html",
-      "/posts/blog/2022-09-12-fridge/index.html",
-      "/posts/blog/2022-03-10-dsra/index.html",
-      "/posts/blog/2020-09-10-taiwan-edu/index.html",
-      "/posts/blog/2022-06-10-persistence/index.html",
-      "/posts/blog/2022-09-10-on-failure/index.html"
-    ]
-  },
-  {
-    "listing": "/archive.html",
-    "items": [
-      "/posts/2023-07-05-income-and-substitution-effects/index.html",
-      "/posts/2023-07-04-tikz-1/index.html",
-      "/posts/2023-06-30-yes-no/index.html",
-      "/posts/2023-06-28-random-variables/index.html",
-      "/posts/2023-06-29-intro/index.html",
-      "/posts/2023-07-04-consumer-choice/index.html",
-      "/posts/2023-05-26-bm/index.html",
-      "/posts/2023-05-26-r-and-tex/index.html",
-      "/posts/2023-05-26-structure/index.html",
-      "/posts/2023-05-26-table-and-figure/index.html",
-      "/posts/2023-05-24-latex-installation/index.html",
-      "/posts/2023-05-25-math/index.html",
-      "/posts/2023-05-14-first-R/index.html",
-      "/posts/blog/2022-09-11-museum/index.html",
-      "/posts/blog/2022-09-12-fridge/index.html",
-      "/posts/blog/2022-03-10-dsra/index.html",
-      "/posts/blog/2020-09-10-taiwan-edu/index.html",
-      "/posts/blog/2022-06-10-persistence/index.html",
-      "/posts/blog/2022-09-10-on-failure/index.html"
-    ]
-  },
-  {
-    "listing": "/notes.html",
-    "items": [
-      "/posts/2023-07-05-income-and-substitution-effects/index.html",
-      "/posts/2023-07-04-tikz-1/index.html",
-      "/posts/2023-06-30-yes-no/index.html",
-      "/posts/2023-06-28-random-variables/index.html",
-      "/posts/2023-06-29-intro/index.html",
-      "/posts/2023-07-04-consumer-choice/index.html",
-      "/posts/2023-05-26-bm/index.html",
-      "/posts/2023-05-26-structure/index.html",
-      "/posts/2023-05-26-table-and-figure/index.html",
-      "/posts/2023-05-26-r-and-tex/index.html",
-      "/posts/2023-05-24-latex-installation/index.html",
-      "/posts/2023-05-25-math/index.html",
       "/posts/2023-05-14-first-R/index.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/blogs/2022-09-12-fridge/index.html",
-      "/blogs/2022-09-11-museum/index.html",
-      "/blogs/2022-03-10-dsra/index.html",
-      "/blogs/2020-09-10-taiwan-edu/index.html",
-      "/blogs/2022-06-10-persistence/index.html",
-      "/blogs/2022-09-10-on-failure/index.html"
     ]
   }
 ]
