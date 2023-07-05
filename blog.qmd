@@ -1,0 +1,20 @@
+---
+title: "Blog"
+listing:
+  type: grid
+  fields: [image, title, description, reading-time, categories, date]
+  page-size: 12
+  feed: true
+  contents: posts
+  sort-ui: true
+  filter-ui: true
+  sort: "date desc"
+  categories: true
+page-layout: full
+title-block-banner: false
+comments: false
+---
+
+:::{#posts}
+:::
+
