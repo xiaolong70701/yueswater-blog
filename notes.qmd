@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Notes"
 listing:
   type: grid
   fields: [image, title, description, reading-time, categories, date]
