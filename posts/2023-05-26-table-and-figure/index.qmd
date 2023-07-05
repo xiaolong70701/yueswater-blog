@@ -1,6 +1,7 @@
 ---
 title: "LaTeX 中表格與圖片的處理"
 date: "2023-05-26"
+description: 介紹 LaTeX 編寫表格和插入圖片的方法與技巧。
 categories: [LaTeX, programming language]
 ---
 
