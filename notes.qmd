@@ -3,7 +3,7 @@ title: "Notes"
 listing:
   type: grid
   fields: [image, title, description, reading-time, categories, date]
-  page-size: 12
+  page-size: 6
   feed: true
   contents: posts
   sort-ui: true
