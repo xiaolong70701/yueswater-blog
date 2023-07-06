@@ -11,7 +11,7 @@ website:
   repo-actions: [issue]
   cookie-consent: true
   page-footer: 
-    left: Copyright © 2023 Anthony. All rights reserved. See [statements](copyright.qmd).
+    left: Copyright © 2023 Anthony. All rights reserved. See [statements](../copyright.pdf).
     right: 
       - icon: github
         href: https://github.com/xiaolong70701
