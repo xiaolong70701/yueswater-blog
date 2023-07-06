@@ -1,5 +1,6 @@
 ---
 title: "Consumer Choice"
+image: eco preview.png
 description: |
     Analyzing how individuals make decisions about what goods and services to purchase based on preferences and constraints
 date: "2023-05-29"

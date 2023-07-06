@@ -1,6 +1,7 @@
 ---
 title: "第一個 R 語言程式"
 date: "2023-05-14"
+image: coding preview.png
 description: 初學者入門的R語言教學，詳解撰寫第一個R程式的基本步驟。
 categories: [R, programming language]
 format:

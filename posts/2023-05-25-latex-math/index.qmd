@@ -1,5 +1,6 @@
 ---
 title: "LaTeX 數學排版"
+image: coding preview.png
 date: "2023-05-24"
 description: 簡潔、專業的工具，優雅地呈現數學公式和符號。
 categories: [LaTeX, programming language]

@@ -1,5 +1,6 @@
 ---
 title: "機器學習：感知器演算法(Perceptron Learning Algorithm, PLA)"
+image: coding preview.png
 date: "2023-06-30"
 description: 分類器的訓練方式，透過適應性調整權重來學習與分類不同類別的數據。
 categories: [statistics, machine learning]

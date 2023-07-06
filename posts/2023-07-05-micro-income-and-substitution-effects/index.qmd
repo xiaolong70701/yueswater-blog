@@ -1,5 +1,6 @@
 ---
 title: "Income and Substitution Effects"
+image: eco preview.png
 date: "2023-07-05"
 description: Analyzing how changes in price and income impact consumer choices and behavior.
 categories: [microeconomics]

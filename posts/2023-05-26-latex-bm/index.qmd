@@ -1,5 +1,6 @@
 ---
 title: "用 LaTeX 製作簡報"
+image: coding preview.png
 date: "2023-05-26"
 description: 創意、專業和易於製作的高品質投影片
 categories: [LaTeX, programming language]

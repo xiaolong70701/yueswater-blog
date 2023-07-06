@@ -1,5 +1,6 @@
 ---
 title: "使用 Quarto 建立部落格"
+image: coding preview.png
 date: "2023-07-06"
 description: 使用 Quarto 建立個人獨特的部落格體驗。
 categories: [R, Quarto, programming language]

@@ -1,5 +1,6 @@
 ---
 title: "Univariate Random Variables and its Properties"
+image: stat preview.png
 date: "2023-06-28"
 description: Explores the characteristics and properties of single-variable random distributions.
 categories: [statistics]

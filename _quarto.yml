@@ -10,12 +10,21 @@ website:
   favicon: images/favicon.png
   repo-actions: [issue]
   cookie-consent: true
+  page-footer: 
+    left: Copyright © 2023 Anthony. All rights reserved. See [statements](copyright.qmd).
+    right: 
+      - icon: github
+        href: https://github.com/xiaolong70701
+      - icon: facebook
+        href: https://www.facebook.com/yueswater/
+      - icon: instagram
+        href: https://www.instagram.com/yues_19_water/
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: notes.qmd
-        text: Notes
+        text: Diary & Notes
     right:
       - text: About
         href: about.html

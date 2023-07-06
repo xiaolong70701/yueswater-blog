@@ -1,5 +1,6 @@
 ---
 title: "R Markdown 與 TeX"
+image: coding preview.png
 date: "2023-05-26"
 description: 融合兩種文檔編寫工具，讓你的簡報與文件更漂亮。
 categories: [R, Markdown, programming language]

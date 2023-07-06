@@ -1,5 +1,6 @@
 ---
 title: "機器學習簡介"
+image: preview.png
 date: "2023-06-28"
 description: 從統計學與演算法出發，將人類的「學習」應用在電腦上。
 preview: preview.png
