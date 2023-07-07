@@ -6,6 +6,7 @@ project:
     browser: false
     
 website:
+  google-analytics: "G-VLWNL5QXD8"
   title: "Yueswater Blog"
   favicon: images/favicon.png
   repo-actions: [issue]
