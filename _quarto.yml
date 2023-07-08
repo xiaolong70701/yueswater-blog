@@ -12,7 +12,7 @@ website:
   repo-actions: [issue]
   cookie-consent: true
   page-footer: 
-    left: Copyright © 2023 Anthony. All rights reserved. See [statements](../copyright.pdf).
+    left: Copyright © 2023 Anthony. All rights reserved. See [statements](../copyright.html).
     right: 
       - icon: github
         href: https://github.com/xiaolong70701
