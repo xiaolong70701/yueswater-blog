@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Anthony Sung">
-<meta name="dcterms.date" content="2023-07-19">
-<meta name="description" content="Foundations of logical reasoning essential for understanding economic principles and relationships mathematically.">
+<meta name="dcterms.date" content="2023-07-22">
+<meta name="description" content="Analyzing how individuals make decisions about what goods and services to purchase based on preferences and constraints">
 
-<title>Yueswater Blog - Logic</title>
+<title>Yueswater Blog - 衡量經濟表現：國民生產毛額</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,8 +93,6 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../css/karat.css">
 </head>
@@ -157,19 +155,7 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of Contents</h2>
-   
-  <ul>
-  <li><a href="#basic-logic-in-mathematical-economics" id="toc-basic-logic-in-mathematical-economics" class="nav-link active" data-scroll-target="#basic-logic-in-mathematical-economics">Basic Logic in Mathematical Economics</a>
-  <ul class="collapse">
-  <li><a href="#proposition" id="toc-proposition" class="nav-link" data-scroll-target="#proposition">Proposition</a></li>
-  <li><a href="#contraposition" id="toc-contraposition" class="nav-link" data-scroll-target="#contraposition">Contraposition</a></li>
-  <li><a href="#proof-by-contradiction" id="toc-proof-by-contradiction" class="nav-link" data-scroll-target="#proof-by-contradiction">Proof by Contradiction</a></li>
-  </ul></li>
-  <li><a href="#quantifier" id="toc-quantifier" class="nav-link" data-scroll-target="#quantifier">Quantifier</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -180,16 +166,15 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Logic</h1>
+<h1 class="title">衡量經濟表現：國民生產毛額</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">real analysis</div>
-    <div class="quarto-category">mathematical economics</div>
+    <div class="quarto-category">macroeconomics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Foundations of logical reasoning essential for understanding economic principles and relationships mathematically.
+    <p>Analyzing how individuals make decisions about what goods and services to purchase based on preferences and constraints</p>
   </div>
 </div>
 
@@ -206,7 +191,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 19, 2023</p>
+      <p class="date">July 22, 2023</p>
     </div>
   </div>
   
@@ -216,139 +201,26 @@ cookieconsent.run({
 
 </header>
 
-<section id="basic-logic-in-mathematical-economics" class="level2">
-<h2 class="anchored" data-anchor-id="basic-logic-in-mathematical-economics">Basic Logic in Mathematical Economics</h2>
-<p>Before we delve into the logic used in mathematical economics, let’s first discuss what a ‘proposition’ is.</p>
-<section id="proposition" class="level3">
-<h3 class="anchored" data-anchor-id="proposition">Proposition</h3>
-<p>A <strong>proposition</strong> is a declaration that can be either true or false, but not both. E.g., <span class="math inline">\(2 &gt; 3\)</span>, which is false by fundamental mathematics, is a well-defined proposition, since it can be proved to be true or false.</p>
-<p>Let <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span> be propositions. We then define the following notations:</p>
+<p>經濟成長指的是一個國家之產出在長期不斷向上成長的趨勢，而景氣循環則是一個國家之產出在短期內的上下波動。無論是研究經濟成長或是景氣循環，我們都需要一個方法與途徑刻畫一國的整體經濟表現。在實證上我們多以下面三種指標衡量：</p>
 <ul>
-<li><p>Negation: “not <span class="math inline">\(P\)</span>”, denoted by <span class="math inline">\(\neg P\)</span></p></li>
-<li><p>Conjunction: “<span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span>”, denoted by <span class="math inline">\(P \land Q\)</span></p></li>
-<li><p>Disjunction: “<span class="math inline">\(P\)</span> or <span class="math inline">\(Q\)</span>”, denoted by <span class="math inline">\(P \lor Q\)</span></p></li>
-<li><p>Implication: if <span class="math inline">\(P\)</span>, then <span class="math inline">\(Q\)</span>, denoted by <span class="math inline">\(P \Rightarrow Q\)</span></p></li>
-<li><p>Equivalence: <span class="math inline">\(P\)</span> if and only if <span class="math inline">\(Q\)</span>, denoted by <span class="math inline">\(P \Leftrightarrow Q\)</span></p></li>
+<li><p>國民生產毛額</p></li>
+<li><p>物價水準(price level)</p></li>
+<li><p>失業率(unemployment rate)</p></li>
 </ul>
-<p>As for the ultimate values of <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span>, they are determined by their relationship and the truth values of P and Q themselves. Therefore, based on these conditions, we can establish the following truth table:</p>
-<table class="table">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 5%">
-<col style="width: 11%">
-<col style="width: 13%">
-<col style="width: 14%">
-<col style="width: 21%">
-<col style="width: 26%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><span class="math inline">\(P\)</span></th>
-<th><span class="math inline">\(Q\)</span></th>
-<th><span class="math inline">\(\neg P\)</span></th>
-<th><span class="math inline">\(P \lor Q\)</span></th>
-<th><span class="math inline">\(P \land Q\)</span></th>
-<th><span class="math inline">\(P \Rightarrow Q\)</span></th>
-<th><span class="math inline">\(P \Leftrightarrow Q\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(F\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-<td><span class="math inline">\(T\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="contraposition" class="level3">
-<h3 class="anchored" data-anchor-id="contraposition">Contraposition</h3>
-<p>Contraposition is a logical inference technique used to establish the validity of an implication (conditional statement) by transforming it into an equivalent statement. Given the implication “If <span class="math inline">\(P\)</span> then <span class="math inline">\(Q\)</span>”, i.e., <span class="math inline">\(P \Rightarrow Q\)</span>. From the truth table above, we deduce the following relationships:</p>
-<ul>
-<li><p>Converse: if <span class="math inline">\(Q\)</span> then <span class="math inline">\(P\)</span>, i.e., <span class="math inline">\(Q \Rightarrow P\)</span></p></li>
-<li><p>Inverse: if not <span class="math inline">\(P\)</span> then not <span class="math inline">\(Q\)</span>, i.e., <span class="math inline">\(\neg P \Rightarrow \neg Q\)</span></p></li>
-<li><p>Contraposition: if not <span class="math inline">\(Q\)</span> then not <span class="math inline">\(P\)</span>. i.e., <span class="math inline">\(\neg Q \Rightarrow \neg P\)</span>, which is equivalent to <span class="math inline">\(P \Rightarrow Q\)</span></p></li>
-</ul>
-<p>Note that if two propositions <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span> have the same truth value for all possible truth values of component variables, they are said to be logically equivalent, denoted <span class="math inline">\(P \equiv Q\)</span>. Therefore, in mathematical proofs, if we find it challenging to prove “If <span class="math inline">\(P\)</span> then <span class="math inline">\(Q\)</span>,” we can reverse the logic and prove “If not <span class="math inline">\(Q\)</span> then not <span class="math inline">\(P\)</span>” instead.</p>
-</section>
-<section id="proof-by-contradiction" class="level3">
-<h3 class="anchored" data-anchor-id="proof-by-contradiction">Proof by Contradiction</h3>
-<p>“Proof by contradiction” is a common method used in mathematical reasoning and logic to demonstrate the truth of a statement or proposition. It involves assuming the negation of the statement (i.e., assuming the statement is false) and then deriving a logical contradiction from that assumption. Since a logical contradiction cannot exist, it implies that the original assumption (the negation of the statement) must be false, and therefore, the original statement itself must be true.</p>
-<p>Given the proposition <span class="math inline">\(P \Rightarrow Q\)</span>, the proof by contradiction follows these general steps:</p>
-<ol type="1">
-<li>Assume the negation of the statement (the opposite of what you want to prove).</li>
-<li>Derive a logical contradiction using valid logical reasoning from that assumption.</li>
-<li>Conclude that the original statement must be true since its negation leads to a contradiction.</li>
-</ol>
-<p>By proving that the negation leads to a contradiction, we indirectly prove the original statement to be true.</p>
-<p>This method is particularly useful when direct proof (showing that a statement directly leads to a true conclusion) is challenging or not immediately apparent. Proof by contradiction allows mathematicians to establish the truth of a statement indirectly through the process of elimination.</p>
-</section>
-</section>
-<section id="quantifier" class="level2">
-<h2 class="anchored" data-anchor-id="quantifier">Quantifier</h2>
-<p>Let <span class="math inline">\(P(x)\)</span> be a proposition about <span class="math inline">\(x\)</span>. Then</p>
-<table class="table">
-<colgroup>
-<col style="width: 17%">
-<col style="width: 40%">
-<col style="width: 41%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Statement</th>
-<th>Is true if</th>
-<th>Is false if</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(\forall x, P(x)\)</span></td>
-<td><span class="math inline">\(P(x)\)</span> is true for all <span class="math inline">\(x\)</span></td>
-<td>at least one <span class="math inline">\(x\)</span> for which <span class="math inline">\(P(x)\)</span> is false</td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(\exists x, P(x)\)</span></td>
-<td>at least one <span class="math inline">\(x\)</span> for which <span class="math inline">\(P(x)\)</span> is true</td>
-<td><span class="math inline">\(P(x)\)</span> is false for all <span class="math inline">\(x\)</span></td>
-</tr>
-</tbody>
-</table>
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{sung2023,
+  author = {Sung, Anthony},
+  title = {衡量經濟表現：國民生產毛額},
+  date = {2023-07-22},
+  url = {https://yueswater.netlify.app/posts/notes/micro/2023-07-22-macro-economy-performance/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-sung2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Sung, Anthony. 2023. <span>“衡量經濟表現：國民生產毛額.”</span> July 22,
+2023. <a href="https://yueswater.netlify.app/posts/notes/micro/2023-07-22-macro-economy-performance/">https://yueswater.netlify.app/posts/notes/micro/2023-07-22-macro-economy-performance/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

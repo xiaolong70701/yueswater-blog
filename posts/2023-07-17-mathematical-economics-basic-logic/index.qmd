@@ -1,6 +1,6 @@
 ---
 title: "Logic"
-image: stat preview.png
+image: math preview.png
 date: "2023-07-17"
 description: Foundations of logical reasoning essential for understanding economic principles and relationships mathematically.
 categories: [real analysis, mathematical economics]

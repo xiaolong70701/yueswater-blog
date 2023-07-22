@@ -1,6 +1,6 @@
 ---
 title: "Set Theory and Basic Topology"
-image: stat preview.png
+image: math preview.png
 date: "2023-07-19"
 description: Analyzing relationships and interactions among various economic elements.
 categories: [real analysis, mathematical economics]

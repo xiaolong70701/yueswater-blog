@@ -1,0 +1,20 @@
+---
+title: "衡量經濟表現：國民生產毛額"
+image: macro preview.png
+description: |
+    Analyzing how individuals make decisions about what goods and services to purchase based on preferences and constraints
+date: "2023-07-22"
+draft: FALSE
+citation:
+  url: https://yueswater.netlify.app/posts/notes/micro/2023-07-22-macro-economy-performance/
+categories: [macroeconomics]
+---
+
+經濟成長指的是一個國家之產出在長期不斷向上成長的趨勢，而景氣循環則是一個國家之產出在短期內的上下波動。無論是研究經濟成長或是景氣循環，我們都需要一個方法與途徑刻畫一國的整體經濟表現。在實證上我們多以下面三種指標衡量：
+
+- 國民生產毛額
+
+- 物價水準(price level)
+
+- 失業率(unemployment rate) 
+
