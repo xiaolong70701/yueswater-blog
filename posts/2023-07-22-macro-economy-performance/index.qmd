@@ -1,8 +1,8 @@
 ---
-title: "衡量經濟表現：國民生產毛額"
+title: "衡量經濟表現"
 image: macro preview.png
 description: |
-    Analyzing how individuals make decisions about what goods and services to purchase based on preferences and constraints
+    經濟表現的指標：GDP、GDP平減指數、CPI。
 date: "2023-07-22"
 draft: FALSE
 citation:
