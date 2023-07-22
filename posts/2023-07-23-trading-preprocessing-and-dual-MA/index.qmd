@@ -172,7 +172,8 @@ def golden_death_cross_strategy(prices, short_window=5, long_window=30):
     long_ma = pd.Series(prices).rolling(window=long_window, min_periods=1).mean()
 
     # 判斷黃金交叉和死亡交叉
-    signals = pd.Series(0, index=range(len(prices)))  # 交叉信號：0表示無交叉，1表示黃金交叉，-1表示死亡交叉
+    signals = pd.Series(0, index=range(len(prices)))  
+    # 交叉信號：0表示無交叉，1表示黃金交叉，-1表示死亡交叉
     for i in range(1, len(prices)):
         if short_ma[i] > long_ma[i] and short_ma[i - 1] <= long_ma[i - 1]:
             signals[i] = 1  # 黃金交叉
