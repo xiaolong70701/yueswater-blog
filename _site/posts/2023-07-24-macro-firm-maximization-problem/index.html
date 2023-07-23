@@ -399,6 +399,24 @@ zF_{n}(k, n) − w = 0 \Longleftrightarrow \text{MPN} = w
 <p><span class="math display">\[
 P \times zF_{n}(k, n) − W = 0 \Longleftrightarrow P \times MPN = W \Longleftrightarrow \text{MPN} = \frac{W}{P} = w
 \]</span></p>
+<p>考慮一個例子。假設廠商的目標是在給定資本(<span class="math inline">\(k\)</span>)、生產力(<span class="math inline">\(A\)</span>)和工資(<span class="math inline">\(w\)</span>)的情況下，最大化利潤(<span class="math inline">\(\pi\)</span>)。令生產函數為 <span class="math inline">\(y = Ak^\alpha n^{1-\alpha}\)</span>，因此利潤最大化的問題可以表示為： <span class="math display">\[
+\max_n \pi = Ak^\alpha n^{1-\alpha} - wn
+\]</span></p>
+<p>根據一階條件，得到 <span class="math display">\[
+(1 - \alpha) Ak^\alpha n^{-\alpha} = w
+\]</span></p>
+<p>經過整理後可以得到勞動需求函數： <span class="math display">\[
+n^{d}(w, A, k) = \left( \frac{(1 - \alpha)A}{w} \right)^{\frac{1}{\alpha}} k
+\]</span></p>
+<p>勞動需求函數表示在給定工資、生產力和資本的情況下，廠商將選擇的最適勞動數量。我們根據這個勞動需求函數可以得到以下的資訊：</p>
+<ul>
+<li>當資本增加時，最適勞動數量也會增加。</li>
+<li>當生產力增加時，最適勞動數量也會增加。</li>
+<li>當工資增加時，最適勞動數量則會減少。</li>
+</ul>
+<p>因此綜合上述資訊，我們可以將勞動需求函數寫成隱函數(implicit function)的形式： <span class="math display">\[
+n^{d} = n^{d}(\underset{+}{A}, \underset{-}{w}, \underset{+}{k}, \cdots)
+\]</span></p>
 
 
 </section>
