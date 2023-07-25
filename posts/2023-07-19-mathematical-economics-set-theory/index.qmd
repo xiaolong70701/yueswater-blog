@@ -7,6 +7,8 @@ categories: [real analysis, mathematical economics]
 format:
   html: 
     code-fold: false
+citation:
+  url: https://yueswater.netlify.app/posts/2023-07-19-mathematical-economics-set-theory/
 ---
 
 A set can be simply defined as a collection of objects or elements. The followings are some examples of set:

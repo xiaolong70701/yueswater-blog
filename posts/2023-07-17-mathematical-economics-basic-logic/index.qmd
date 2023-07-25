@@ -7,6 +7,8 @@ categories: [real analysis, mathematical economics]
 format:
   html: 
     code-fold: false
+citation:
+  url: https://yueswater.netlify.app/posts/2023-07-17-mathematical-economics-basic-logic/
 ---
 
 ## Basic Logic in Mathematical Economics

@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": true
+            "ascending": false
         }
     ],
-    "path": "~/yueswater-blog"
+    "path": "~/yueswater-blog/posts/2023-07-25-macro-competitive-equilibrium-one-period"
 }
